@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="350.0" prefWidth="527.0" style="-fx-border-color: #B87333; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Interface.CreatePolinom">
+   <children>
+      <AnchorPane prefHeight="381.0" prefWidth="569.0" style="-fx-background-color: #2f3348;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="backMenu" layoutX="166.0" layoutY="282.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="225.0" text="Готово" AnchorPane.bottomAnchor="32.666666666666664" AnchorPane.leftAnchor="165.66666666666666" AnchorPane.rightAnchor="135.66666666666666">
+               <font>
+                  <Font name="Impact" size="19.0" />
+               </font></Button>
+            <Label layoutX="8.0" layoutY="52.0" prefHeight="38.0" prefWidth="194.0" text="Введите стпень полинома">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.7456140518188477" green="0.09205111861228943" blue="0.09205111861228943" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font name="Impact" size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="degree" layoutX="213.0" layoutY="58.0" prefHeight="27.0" prefWidth="291.0" AnchorPane.leftAnchor="213.0" AnchorPane.rightAnchor="22.666666666666686">
+               <font>
+                  <Font name="Impact" size="14.0" />
+               </font>
+            </TextField>
+            <Label layoutX="8.0" layoutY="104.0" prefHeight="38.0" prefWidth="260.0" text="Введите наибольший коэффициент">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.7456140518188477" green="0.09205111861228943" blue="0.09205111861228943" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font name="Impact" size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="maxFixedOdds" layoutX="279.0" layoutY="109.0" prefHeight="27.0" prefWidth="225.0" AnchorPane.leftAnchor="279.0" AnchorPane.rightAnchor="22.666666666666657">
+               <font>
+                  <Font name="Impact" size="14.0" />
+               </font>
+            </TextField>
+            <Label layoutX="8.0" layoutY="157.0" prefHeight="38.0" prefWidth="237.0" text="Введите корни через запятную">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.7456140518188477" green="0.09205111861228943" blue="0.09205111861228943" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font name="Impact" size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="inputRoots" layoutX="255.0" layoutY="161.0" prefHeight="27.0" prefWidth="249.0" AnchorPane.leftAnchor="279.3333333333333" AnchorPane.rightAnchor="22.666666666666657">
+               <font>
+                  <Font name="Impact" size="14.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

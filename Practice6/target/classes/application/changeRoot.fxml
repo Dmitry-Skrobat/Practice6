@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="293.0" prefWidth="608.0" style="-fx-background-color: #2f3348; -fx-border-color: #B87333; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Interface.ChangeRoot">
+   <children>
+      <Label layoutX="24.666666666666664" layoutY="55.0" prefHeight="38.0" prefWidth="359.0" text="Введите индекс корня который хотите изменить" textAlignment="CENTER" AnchorPane.leftAnchor="19.0" AnchorPane.rightAnchor="230.0">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7456140518188477" green="0.09205111861228943" blue="0.09205111861228943" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font name="Impact" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="index" layoutX="383.0" layoutY="59.0" prefHeight="29.0" prefWidth="189.0" style="-fx-border-color: a0a0a0;" AnchorPane.leftAnchor="383.0" AnchorPane.rightAnchor="47.000000000000114">
+         <font>
+            <Font name="Impact" size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="backMenu" layoutX="115.0" layoutY="219.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="225.0" text="Готово" AnchorPane.leftAnchor="115.0" AnchorPane.rightAnchor="114.99999999999994">
+         <font>
+            <Font name="Impact" size="19.0" />
+         </font>
+      </Button>
+      <Label layoutX="25.0" layoutY="100.0" prefHeight="38.0" prefWidth="200.0" text="Введите новый корень" textAlignment="CENTER" AnchorPane.leftAnchor="24.666666666666664" AnchorPane.rightAnchor="235.33333333333348">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7456140518188477" green="0.09205111861228943" blue="0.09205111861228943" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font name="Impact" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="newRoot" layoutX="223.33333333333334" layoutY="104.0" prefHeight="29.0" prefWidth="348.0" style="-fx-border-color: a0a0a0;" AnchorPane.leftAnchor="218.0" AnchorPane.rightAnchor="42.0">
+         <font>
+            <Font name="Impact" size="14.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="217.0" prefWidth="450.0" style="-fx-background-color: #2f3348; -fx-border-color: #B87333; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Interface.ChangeMaxOdd">
+   <children>
+      <Label layoutX="76.66666666666666" layoutY="31.0" prefHeight="38.0" prefWidth="309.0" text="Введите новый наибольший коэффициент" textAlignment="CENTER" AnchorPane.leftAnchor="71.0" AnchorPane.rightAnchor="45.0">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7456140518188477" green="0.09205111861228943" blue="0.09205111861228943" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font name="Impact" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="changeMax" layoutX="56.0" layoutY="102.0" prefHeight="27.0" prefWidth="320.0" style="-fx-border-color: a0a0a0;" AnchorPane.leftAnchor="56.0" AnchorPane.rightAnchor="49.0">
+         <font>
+            <Font name="Impact" size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="backMenu" layoutX="103.0" layoutY="167.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="225.0" text="Готово">
+         <font>
+            <Font name="Impact" size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

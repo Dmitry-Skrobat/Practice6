@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="219.0" prefWidth="546.0" style="-fx-background-color: #2f3348; -fx-border-color: #B87333; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Interface.Calculate">
+   <children>
+      <Label layoutX="140.66666666666669" layoutY="30.0" prefHeight="38.0" prefWidth="262.0" text="Введите значение точки x" textAlignment="CENTER" AnchorPane.leftAnchor="135.0" AnchorPane.rightAnchor="149.0">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7456140518188477" green="0.09205111861228943" blue="0.09205111861228943" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font name="Impact" size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="inputX" layoutX="56.0" layoutY="102.0" prefHeight="27.0" prefWidth="320.0" style="-fx-border-color: a0a0a0;" AnchorPane.leftAnchor="56.0" AnchorPane.rightAnchor="49.0">
+         <font>
+            <Font name="Impact" size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="backMenu" layoutX="273.0" layoutY="167.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="225.0" text="Назад" AnchorPane.leftAnchor="268.0" AnchorPane.rightAnchor="47.66666666666666">
+         <font>
+            <Font name="Impact" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="calculate" layoutX="28.0" layoutY="167.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="225.0" text="Вычислить " AnchorPane.leftAnchor="22.6666666666666">
+         <font>
+            <Font name="Impact" size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
